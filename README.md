@@ -7,7 +7,7 @@ https://github.com/papmalakul/ELK-Stack-Project/blob/main/Images/Pap%20Malakul%2
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Playbook Files/filebeat-playbook.yml
+https://github.com/papmalakul/ELK-Stack-Project/blob/main/Playbook%20Files/filebeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
