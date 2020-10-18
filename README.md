@@ -3,11 +3,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/papmalakul/ELK-Stack-Project/blob/main/Images/Pap%20Malakul%20Elk%20Stack%20Project.png
+https://github.com/papmalakul/ELK-Stack-Project/blob/main/Diagrams/Pap%20Malakul%20Elk%20Stack%20Project.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-https://github.com/papmalakul/ELK-Stack-Project/blob/main/Playbook%20Files/filebeat-playbook.yml
+https://github.com/papmalakul/ELK-Stack-Project/blob/main/Ansible/filebeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/papmalakul/ELK-Stack-Project/blob/main/Images/running%20docker%20ps%20in%20ELK%20VM.png
+https://github.com/papmalakul/ELK-Stack-Project/blob/main/Diagrams/running%20docker%20ps%20in%20ELK%20VM.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
