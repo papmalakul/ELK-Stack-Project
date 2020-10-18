@@ -16,15 +16,15 @@ docker attach [container name]
 
 cd /etc/ansible/ 
 nano pentest.yml
--	copy my github link
+-	https://github.com/papmalakul/ELK-Stack-Project/blob/main/Ansible/pentest.yml
 -	change host to your specific [hostname]
 -	hostname in etc/ansible/hosts
 ansible-playbook [name yml playbook]
 -	to run playbook once created
 nano elk-playbook.yml
--	github link
+-	https://github.com/papmalakul/ELK-Stack-Project/blob/main/Ansible/elk-project.yml
 nano filebeat-playbook.yml
--	github link
+-	https://github.com/papmalakul/ELK-Stack-Project/blob/main/Ansible/filebeat-playbook.yml
 nano metricbeat-playbook.yml
--	github link
+-	https://github.com/papmalakul/ELK-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml
 
