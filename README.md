@@ -74,13 +74,13 @@ https://github.com/papmalakul/ELK-Stack-Project/blob/main/Diagrams/running%20doc
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-web-1 10.0.0.5
-web-2 10.0.0.6
-web-3 10.0.0.7
+- web-1 10.0.0.5
+- web-2 10.0.0.6
+- web-3 10.0.0.7
 
 We have installed the following Beats on these machines:
-Filebeat
-Metricbeat
+- Filebeat
+- Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 Using Filebeat allows you to monitor the log files or locations that you specify. Using Metricbeat allows to monitor your servers by collecting system metrics and services running on the server.
@@ -93,6 +93,7 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include the private IP's of the webservers:
 
 [webservers]
+
 xx.xx.xx.xx:xxx (add in: ansible_python_interpreter=/usr/bin/python3)
 
 - Run the playbook, and navigate to individual web servers to check that the installation worked as expected.
