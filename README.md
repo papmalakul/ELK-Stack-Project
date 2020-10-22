@@ -84,21 +84,17 @@ Metricbeat
 These Beats allow us to collect the following information from each machine:
 Using Filebeat allows you to monitor the log files or locations that you specify. Using Metricbeat allows to monitor your servers by collecting system metrics and services running on the server.
 
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _filebeat-playbook.yml____ file to _your /etc/ansible/____.
-- Update the _/etc/ansible/hosts____ file to include the private IP's of the webservers:
+- Copy the filebeat-playbook.yml file to your /etc/ansible/.
+- Update the /etc/ansible/hosts file to include the private IP's of the webservers:
 [webservers]
-xx.xx.xx.xx:xxx 
-- Run the playbook, and navigate to _individual web servers___ to check that the installation worked as expected.
+xx.xx.xx.xx:xxx (add in: ansible_python_interpreter=/usr/bin/python3)
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- Run the playbook, and navigate to individual web servers to check that the installation worked as expected.
+- To check f the ELK server is running navigate to https://[jumpbox public ip]/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+For extra help with some simple Linux commands here are some other commands I used to get it running:
+https://github.com/papmalakul/ELK-Stack-Project/blob/main/Linux/Linux%20Commands.md
