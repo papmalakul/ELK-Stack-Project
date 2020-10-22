@@ -73,6 +73,7 @@ https://github.com/papmalakul/ELK-Stack-Project/blob/main/Diagrams/running%20doc
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
+
 web-1 10.0.0.5
 web-2 10.0.0.6
 web-3 10.0.0.7
@@ -90,6 +91,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml file to your /etc/ansible/.
 - Update the /etc/ansible/hosts file to include the private IP's of the webservers:
+
 [webservers]
 xx.xx.xx.xx:xxx (add in: ansible_python_interpreter=/usr/bin/python3)
 
